@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Im-hungry/static/css/main.c57470de.chunk.css",
+    "main.js": "/Im-hungry/static/js/main.afdd3cc4.chunk.js",
+    "main.js.map": "/Im-hungry/static/js/main.afdd3cc4.chunk.js.map",
+    "runtime-main.js": "/Im-hungry/static/js/runtime-main.9275a3ed.js",
+    "runtime-main.js.map": "/Im-hungry/static/js/runtime-main.9275a3ed.js.map",
+    "static/js/2.271fe9ab.chunk.js": "/Im-hungry/static/js/2.271fe9ab.chunk.js",
+    "static/js/2.271fe9ab.chunk.js.map": "/Im-hungry/static/js/2.271fe9ab.chunk.js.map",
+    "index.html": "/Im-hungry/index.html",
+    "precache-manifest.c7acca3cf58604555d18390272313a85.js": "/Im-hungry/precache-manifest.c7acca3cf58604555d18390272313a85.js",
+    "service-worker.js": "/Im-hungry/service-worker.js",
+    "static/css/main.c57470de.chunk.css.map": "/Im-hungry/static/css/main.c57470de.chunk.css.map",
+    "static/js/2.271fe9ab.chunk.js.LICENSE.txt": "/Im-hungry/static/js/2.271fe9ab.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9275a3ed.js",
+    "static/js/2.271fe9ab.chunk.js",
+    "static/css/main.c57470de.chunk.css",
+    "static/js/main.afdd3cc4.chunk.js"
+  ]
+}

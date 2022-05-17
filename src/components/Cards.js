@@ -2,7 +2,7 @@ import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
 import img2 from '../images/2.jpg'
-import img9 from '../images/9.jpg'
+import img1 from '../images/9.jpg'
 import img3 from '../images/3.jpg'
 import img4 from '../images/4.jpg'
 import img8 from '../images/8.jpg'
@@ -15,7 +15,7 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src={img9}
+              src={img1}
               text='Eat 3 takoyakis in one bite!'
               label='Yummy'
               path='/Dine-in'

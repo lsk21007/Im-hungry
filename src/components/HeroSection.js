@@ -1,10 +1,15 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import '../App.css';
 import { Button } from './Button';
 import './HeroSection.css';
 import section from '../images/section.jpeg'
 
 function HeroSection() {
+  const[state,setState]=useState(Math.floor(Math.random()*2));
+  useEffect(()=>{
+    setState(()=>Math.floor(Math.random()*2))
+  },[]) 
+  // console.log(state);
   return (
     <div className='hero-container'>
       <img src={section}/>
@@ -15,17 +20,18 @@ function HeroSection() {
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
+          redirect={state}
         >
-          TO EAT
+          PRESS ME TO DECIDE EAT OR NOT
         </Button>
-        &emsp;&emsp;
+        {/* &emsp;&emsp;
         <Button
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
         >
-          OR NOT
-        </Button>
+          PRESS ME TO DECIDE EAT OR NOT
+        </Button> */}
       </div>
     </div>
   );
